@@ -1,4 +1,7 @@
 const Post = require('../models/Post');
+const sharp = require('sharp');
+const path = require('path');
+const fs = require('fs');
 
 module.exports = {
     async index(req, res, next) {
@@ -9,6 +12,13 @@ module.exports = {
     async store(req, res, next) {
         const { author, place, description, hashtags } = req.body;
         const { filename: image } = req.file;
+
+        await sharp(req.file.path)
+            .resize(500)
+            .jpeg( { quality: 70 } )
+            .toFile(
+                path.resolve(req.file.destination, 'resized', image)
+            )
 
         const post = await Post.create({
             author,
