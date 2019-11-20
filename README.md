@@ -36,6 +36,12 @@
 | POST   | http://localhost:3333/posts/:id/like                         | Curtir Post    |
 | POST   | http://localhost:3333/posts/:id/deslike                      | Descurtir Post |
 
+---
+
+#### Testando utilizando o Insommnia
+
+![Teste utilizando Insommnia](https://raw.githubusercontent.com/igu/api-gateway-instagram/master/uploads/resized/post-teste-insomnia.png "Testando utilizando o Insommnia")
+
 ##### Creditos
 * [Igor Alisson](https://github.com/igu)
 * [Rocketseat](https://github.com/Rocketseat)
