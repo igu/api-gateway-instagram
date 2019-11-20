@@ -37,6 +37,6 @@
 | POST   | http://localhost:3333/posts/5dd4617e082a7f3169696f7a/deslike | Descurtir Post |
 
 ##### Creditos
-* (Igor Alisson)[https://github.com/igu]
-* (Rocketseat)[https://github.com/Rocketseat]
-* (Wesley Monaro)[https://github.com/wesleymonaro]
+* [Igor Alisson](https://github.com/igu)
+* [Rocketseat](https://github.com/Rocketseat)
+* [Wesley Monaro](https://github.com/wesleymonaro)
