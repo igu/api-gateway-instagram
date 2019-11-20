@@ -32,9 +32,9 @@
 |--------|--------------------------------------------------------------|----------------|
 | POST   | http://localhost:3333/posts                                  | Criar Post     |
 | GET    | http://localhost:3333/posts                                  | Listar Post    |
-| DELETE | http://localhost:3333/posts/5dd433c1862b8618a523bc85         | Deletar Post   |
-| POST   | http://localhost:3333/posts/5dd4617e082a7f3169696f7a/like    | Curtir Post    |
-| POST   | http://localhost:3333/posts/5dd4617e082a7f3169696f7a/deslike | Descurtir Post |
+| DELETE | http://localhost:3333/posts/:id                              | Deletar Post   |
+| POST   | http://localhost:3333/posts/:id/like                         | Curtir Post    |
+| POST   | http://localhost:3333/posts/:id/deslike                      | Descurtir Post |
 
 ##### Creditos
 * [Igor Alisson](https://github.com/igu)
