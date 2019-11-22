@@ -16,7 +16,7 @@ const createPostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_CREATE);
 const listPostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_LIST);
 const deletePostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_DELETE);
 const likePostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_LIKE);
-const deslikePostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_LIKE);
+const deslikePostServiceProxy = httpProxy(INSTAGRAM_POSTS_API_URL_DESLIKE);
 
 
 app.get('/', (req, res) => res.send('Gateway API'));
